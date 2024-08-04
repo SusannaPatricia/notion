@@ -116,12 +116,14 @@
             
             var hrs = today.getHours();
             var greet;
-            if (hrs < 12)
-                greet = 'Good Morning Susanna';
+            if (hrs >= 5 && hrs < 12)
+                greet = 'Guten Morgen Susanna';
             else if (hrs >= 12 && hrs < 17)
-                greet = 'Good Afternoon Susanna';
+                greet = 'Schönen Nachmittag Susanna';
+            else if (hrs >= 0 && hrs < 5)
+                greet = 'Geh Schlafen Susanna!';
             else
-                greet = 'Good Evening Susanna';
+                greet = 'Guten Abend Susanna';
             document.getElementById('greet').innerHTML = greet;
         }
 
