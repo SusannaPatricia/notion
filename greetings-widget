@@ -40,7 +40,7 @@
             background: #DE5A36; /* red */
             color: #fff;
             display: inline-block;
-            box-shadow: 2px 2px 1px 0px #e0d7ff; /* Light violet shadow */
+            box-shadow: 5px 5px 2px 0px #e0d7ff; /* Light violet shadow */
         }
 
         .card:hover {
